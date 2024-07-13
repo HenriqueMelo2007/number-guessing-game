@@ -26,8 +26,11 @@ int main()
     {
       cout << " TOO LOW!\n";
     }
-    else
+    else {
       cout << " CORRECT!!!\n";
+      cout << " Tries: " << tries;
+    }
+      
 
   } while (actualTry != randomNum);
 
